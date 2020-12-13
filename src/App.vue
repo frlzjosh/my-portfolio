@@ -6,8 +6,6 @@
         <router-link class="app__links pr-5" to="/information"
           >Information</router-link
         >
-        <!-- <router-link active-class="app__links--on" to="/" ><a>Resume</a></router-link>
-        <router-link active-class="active" to="/information">Information</router-link> -->
       </div>
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -55,6 +53,7 @@ v-app {
   background-color: #263238 !important;
 }
 .app {
+  margin-bottom: 20px;
   background-color: #fafafa !important;
   &__links {
     font-size: 20px;

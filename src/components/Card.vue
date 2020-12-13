@@ -40,7 +40,7 @@ export default class Card extends Vue {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 hr {
   background-color: white;
   color: white;
@@ -66,5 +66,13 @@ hr {
 .v-expansion-panels:not(.v-expansion-panels--accordion):not(.v-expansion-panels--tile)
   > .v-expansion-panel--active {
   border-radius: 30px;
+}
+.project__link{
+  font-size: 1.25em;
+  padding-bottom: 10px;
+  color: aliceblue !important;
+}
+.job__header{
+  font-size: 1.25em;
 }
 </style>
